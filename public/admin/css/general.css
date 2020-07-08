@@ -1,0 +1,121 @@
+body, .body{
+    background-color: white !important;
+    table-layout: fixed !important;
+}
+
+/* fileinput */
+.file-drop-zone-title{
+    color: #2f353a !important;
+    padding: 10px !important;
+}
+.file-drop-zone{
+    border: 1px #2f353a dashed !important;
+}
+
+/* sidebar */
+.sidebar .nav-item .active{
+    border-left: 0.25rem solid #20a8d8 !important;
+}
+
+.sidebar .nav-link.active{
+    color: #20a8d8 !important;
+}
+
+.sidebar .nav-link.active:hover{
+    color: #fff !important;
+}
+
+/* DataTables */
+
+.paginate_input{
+    text-align: center;
+    width: 40px;
+}
+
+.paging_input{
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* select2 */
+.select2-selection{
+    background: white;
+    color: #5c6873;
+}
+
+.picture-list{
+    margin: 0 !important;
+    padding: .25rem !important;
+    text-align: center !important;
+}
+
+.actions{
+    text-align: center;
+    margin: 0 !important;
+    padding: .5rem 0;
+}
+
+#dataTableBuilder_wrapper input[type="search"]:not(:placeholder-shown){
+    background: #63c2de;
+    color: #f0f3f5;
+}
+
+table.dataTable{
+    width: 100% !important;
+}
+
+.box1 label, .box2 label{
+    margin-bottom: 0 !important;
+    font-weight: bold;
+    background: #f0f3f5;
+    color: #5c6873;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.box2 button{
+    background: #f86c6b;
+    color: white;
+    font-weight: bold;
+}
+
+.box1 button{
+    background: #4dbd74;
+    color: white;
+    font-weight: bold;
+}
+
+tfoot th.picture-list input,
+tfoot th.actions input{
+    display: none;
+}
+
+tfoot th{
+    text-align: center;
+    padding: .2em !important;
+    background: #c8ced3;
+}
+
+tfoot th input{
+    width: 100%;
+}
+
+tfoot {
+    display: table-header-group;
+}
+
+tfoot th .actions{
+    padding: 0 !important;
+}
+
+.select2-results li[aria-disabled="true"]{
+    color: #999;
+}
+
+.cedula4 td {
+    border: 1px solid #000;
+}
+
+#ordenColumnas li{
+    cursor: move;
+}
